@@ -5,19 +5,19 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    image: assets.girl_with_headphone_image,
+    image: assets.vino_tino_banner_image,
     title: "Vino Tinto Reserva",
     description: "Un sabor intenso y equilibrado para ocasiones especiales.",
   },
   {
     id: 2,
-    image: assets.girl_with_earphone_image,
+    image: assets.vino_blanco_banner_image,
     title: "Vino Blanco Fresco",
     description: "Refrescante y suave, ideal para días cálidos o aperitivos.",
   },
   {
     id: 3,
-    image: assets.boy_with_laptop_image,
+    image: assets.vino_banner_image,
     title: "Pack de Degustación",
     description: "Explora nuestra variedad con esta selección exclusiva.",
   },

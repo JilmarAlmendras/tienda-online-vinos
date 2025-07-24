@@ -10,7 +10,7 @@ const HeaderSlider = () => {
       offer: "Oferta por tiempo limitado 30% de descuento",
       buttonText1: "Comprar ahora",
       buttonText2: "Ver más",
-      imgSrc: assets.header_headphone_image,
+      imgSrc: assets.header_vino_blanco,
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const HeaderSlider = () => {
       offer: "¡Apresúrate, quedan pocas unidades!",
       buttonText1: "Comprar ya",
       buttonText2: "Ver ofertas",
-      imgSrc: assets.header_playstation_image,
+      imgSrc: assets.header_botella_vino,
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const HeaderSlider = () => {
       offer: "Oferta exclusiva 40% de descuento",
       buttonText1: "Ordenar ahora",
       buttonText2: "Saber más",
-      imgSrc: assets.header_macbook_image,
+      imgSrc: assets.header_vino_tinto,
     },
   ];
 

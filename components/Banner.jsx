@@ -5,11 +5,7 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between md:pl-20 py-14 md:py-0 bg-[#E6E9F2] my-16 rounded-xl overflow-hidden">
-      <Image
-        className="max-w-56"
-        src={assets.jbl_soundbox_image}
-        alt="Imagen de vino"
-      />
+      <Image className="max-w-56" src={assets.copa_vino} alt="Imagen de vino" />
       <div className="flex flex-col items-center justify-center text-center space-y-2 px-4 md:px-0">
         <h2 className="text-2xl md:text-3xl font-semibold max-w-[290px]">
           Eleva tu experiencia con nuestros vinos premium
@@ -28,8 +24,8 @@ const Banner = () => {
         </button>
       </div>
       <Image
-        className="hidden md:block max-w-80"
-        src={assets.md_controller_image}
+        className="hidden md:block max-w-90"
+        src={assets.campo_uvas}
         alt="Imagen de copa de vino"
       />
       <Image
